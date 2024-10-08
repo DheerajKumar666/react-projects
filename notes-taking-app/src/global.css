@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: #3a649f;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding: 10px;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+}
+
+.formBlock{
+   background-color: #3a649f;
+   width: 40%;
+   height: 520px;
+   border-radius: 2px;
+   margin: 40px;
+}
+.form-content{
+    margin: 20px;
+}
+
+.form-content label{
+    color: whitesmoke;
+    display: block;
+    font-size: 25px;
+    margin-left: 12px;
+    padding-top: 10px;   
+}
+
+.form-content input,textarea{
+    border: none;
+    border: 1px solid rgb(34, 34, 34);
+    width: 90%;
+    border-radius: 2px;
+    padding: 12px;
+    margin-left: 12px;
+}
+
+select{
+    margin-left: 12px;
+}
+
+button{
+    margin-left: 30px;
+    padding: 10px;
+ }
+
+ .mainContainer{
+    display: flex;
+ }
+
+ .displaySection{
+    width: 50%;
+ }
+
+ .selectDisplayBlock{
+    background-color: #3a649f;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: whitesmoke;
+    width: 100%;
+ }
+
+ .selectDisplayBlock label{
+    display: inline;
+    font-size: 18px;
+    padding: 1px;
+    margin: 1px;
+ }
+
+ .selectDisplayBlock span {   
+    font-size: 17px;
+    padding: 5px;
+ }
+
+ .displayBlock{
+    /* border: 1px solid black; */
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 470px;
+ }
+
+ .displayNote{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+ }
+
+ .output{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 220px;
+    background-color: #3a649f;
+    color: whitesmoke;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 2px;
+ }
+
+ .output h1{
+    padding: 6px;
+    text-transform: uppercase;
+ }
+
+ .output p{
+    padding: 6px;
+ }
+
+ .output .btn{
+   display: flex;
+   margin-top: 8px;
+   justify-content: center;
+   align-items: center;
+   margin-right: 24px;
+ }
+
+ .btn button{
+    padding: 5px;
+    border-radius: 3px;
+ }
